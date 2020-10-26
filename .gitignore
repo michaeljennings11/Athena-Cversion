@@ -1,0 +1,36 @@
+# Configure outputs
+Makefile
+
+# temporary files
+*.o
+src/config.h
+src/problem.c
+src/defs.h
+Makedepend
+Makeoptions
+config.log
+config.status
+
+# Object and binary directories
+obj/
+bin/
+
+# Executables
+*.exe
+*.out
+*.app
+athena
+
+# Athena output files
+*.tab
+*.vtk
+*.athdf*
+*.hst
+*.rst
+
+# Mac OS metadata
+.DS_Store
+
+# editor temp files
+*~
+*.swp
